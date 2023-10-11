@@ -27,7 +27,7 @@ const display = list.map((product)=>{
   const {price, name} = product.fields
   const {url} = product.fields.image[0]
   
-  return `<a class="single-product" href="product.html?id=${id}&name=john&age=25">
+  return `<a class="single-product" href="product.html?id=${id}">
   <img src="${url}" class="single-product-img img" alt="${name}" />
   <footer>
     <h5 class="name">${name}</h5>
